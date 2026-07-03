@@ -1,4 +1,4 @@
-
+import React from 'react';
 
 const About = () => {
   return (
@@ -12,11 +12,11 @@ const About = () => {
         </div>
         <h2 className="text-6xl md:text-7xl font-black uppercase leading-[0.9] tracking-tighter">
           ABOUT <br />
-          THE <span className="text-[#ff3b30]">ENGINEER.</span>
+          THE <span className="text-[#ff3b30]">DEVELOPER.</span>
         </h2>
       </div>
 
-      {/* Right Column: Bio & Stats */}
+      {/* Right Column: Bio */}
       <div className="w-full md:w-3/5 flex flex-col justify-center">
         
         {/* Main Bio */}
@@ -25,34 +25,10 @@ const About = () => {
         </p>
         
         {/* Secondary Bio */}
-        <p className="text-gray-500 text-sm md:text-base leading-relaxed mb-12 max-w-2xl">
-          Away from the keyboard, I lead the Stalls Team for campus fests like TantraFiesta and Abhivyakti, shoot with my Sony Alpha 7 IV, and lose too many parliamentary debates on principle. I care about building things that don't embarrass me two years later.
+        <p className="text-gray-500 text-sm md:text-base leading-relaxed max-w-2xl">
+          Away from the keyboard, I lead the Stalls Team for campus fests like TantraFiesta and Abhivyakti. I care about building things that don't embarrass me two years later.
         </p>
 
-        {/* Stats Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 border-t border-l border-gray-200 w-full max-w-3xl">
-          
-          <div className="border-r border-b border-gray-200 p-6 flex flex-col gap-2 bg-[#f4f4f2] hover:bg-white transition-colors duration-300">
-            <span className="text-3xl font-black text-[#ff3b30]">3</span>
-            <span className="font-mono text-[10px] text-gray-400 tracking-widest uppercase">Y.O.E</span>
-          </div>
-          
-          <div className="border-r border-b border-gray-200 p-6 flex flex-col gap-2 bg-[#f4f4f2] hover:bg-white transition-colors duration-300">
-            <span className="text-3xl font-black text-[#ff3b30]">12</span>
-            <span className="font-mono text-[10px] text-gray-400 tracking-widest uppercase">Projects</span>
-          </div>
-          
-          <div className="border-r border-b border-gray-200 p-6 flex flex-col gap-2 bg-[#f4f4f2] hover:bg-white transition-colors duration-300">
-            <span className="text-3xl font-black text-[#ff3b30]">24</span>
-            <span className="font-mono text-[10px] text-gray-400 tracking-widest uppercase">Contests</span>
-          </div>
-          
-          <div className="border-r border-b border-gray-200 p-6 flex flex-col gap-2 bg-[#f4f4f2] hover:bg-white transition-colors duration-300">
-            <span className="text-3xl font-black text-[#ff3b30]">∞</span>
-            <span className="font-mono text-[10px] text-gray-400 tracking-widest uppercase">Coffees/Day</span>
-          </div>
-          
-        </div>
       </div>
     </section>
   );
