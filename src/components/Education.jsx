@@ -43,7 +43,7 @@ const Education = () => {
             <p className="text-gray-500 mt-1.5 text-sm font-medium">B.Tech, Computer Science & Engineering</p>
           </div>
           
-          <div className="lg:col-span-3 font-mono text-[10px] text-black lg:text-right flex items-start lg:justify-end mt-2 lg:mt-1 tracking-widest uppercase">
+          <div className="lg:col-span-3 font-mono text-[13px] text-black lg:text-right flex items-start lg:justify-end mt-2 lg:mt-1 tracking-widest uppercase">
             CGPA 8.67 / 10
           </div>
         </div>
@@ -67,7 +67,7 @@ const Education = () => {
             <p className="text-gray-500 mt-1.5 text-sm font-medium">Higher Secondary (12th Grade)</p>
           </div>
           
-          <div className="lg:col-span-3 font-mono text-[10px] text-black lg:text-right flex items-start lg:justify-end mt-2 lg:mt-1 tracking-widest uppercase">
+          <div className="lg:col-span-3 font-mono text-[13px] text-black lg:text-right flex items-start lg:justify-end mt-2 lg:mt-1 tracking-widest uppercase">
             Grade XII — 91.00%
           </div>
         </div>
@@ -91,7 +91,7 @@ const Education = () => {
             <p className="text-gray-500 mt-1.5 text-sm font-medium">Secondary School Certificate (10th Grade)</p>
           </div>
           
-          <div className="lg:col-span-3 font-mono text-[10px] text-black lg:text-right flex items-start lg:justify-end mt-2 lg:mt-1 tracking-widest uppercase">
+          <div className="lg:col-span-3 font-mono text-[13px] text-black lg:text-right flex items-start lg:justify-end mt-2 lg:mt-1 tracking-widest uppercase">
             Grade X — 91.00%
           </div>
         </div>

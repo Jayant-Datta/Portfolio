@@ -31,7 +31,7 @@ const Stack = () => {
     { name: 'React.js', level: 4 },
     { name: 'Node.js', level: 4 },
     { name: 'Next.js', level: 3 },
-    { name: 'React Native', level: 4 },
+    { name: 'MongoDB', level: 4 },
     { name: 'Tailwind CSS', level: 4 },
     { name: 'Appwrite', level: 3 },
   ];
