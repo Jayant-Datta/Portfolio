@@ -13,7 +13,7 @@ const Projects = () => {
     },
     {
       id: '02',
-      title: 'STACKCLOUD — STORAGE',
+      title: 'LUMINA — STORAGE',
       description: 'Built a cloud storage platform using passwordless OTP. Designed Next.js Server Actions for file management and integrated a responsive Shadcn UI with global search.',
       tools: ['NEXT.JS', 'TYPESCRIPT', 'APPWRITE', 'SHADCN'],
       liveLink: 'https://stack-cloud-lake.vercel.app/auth',
